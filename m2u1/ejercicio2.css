@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #383838;
+    color: #eee;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.textarea{
+    width: 40rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ccc;
+    font-size: 1.4rem;
+}
+
+.box{
+    display: flex;
+    gap: 2rem;
+}
+
+.heading{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    background-color: darkslategrey;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.heading--word{
+    background-color: darkslateblue;
+}
+
+.ch{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
