@@ -31,6 +31,14 @@ section {
     padding-bottom: 120px;
 }
 
+.shadow-on-hover {
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
 /* Btn */
 .btn {
     border-radius: 0;
@@ -90,6 +98,56 @@ section {
     height: 2px;
     display: block;
     background-color: #f58d17;
+}
+
+/* Intro text */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #f58d17;
+    color: #ffffff;
+}
+
+.menu-item .stars {
+    color: #f58d17;
+}
+
+/* Caracteristicas */
+#features {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cover2.jpg);
+}
+
+.feature {
+    border: 2px solid rgba(225, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
 }
 
 
