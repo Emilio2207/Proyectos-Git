@@ -59,7 +59,7 @@ router.get("/", async function (req, res, next) {
     var id = req.params.id;
     var novedad = await novedadesModel.getNovedadById(id);
     res.render('admin/modificar', {
-      layout: 'admin/modificar',
+      layout: 'admin/layout',
       novedad
     });
   }); // cierro get modif
