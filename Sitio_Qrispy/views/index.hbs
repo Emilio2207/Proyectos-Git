@@ -834,7 +834,8 @@
                         <p>Publicado: 22 Dec, 2020</p>
                         <h4><a href="#">{{titulo}}</a></h4>
                         <p>{{subtitulo}}</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal{{id}}">Leer más</a>
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal{{id}}">
+                        <img src="{{imagen}}" alt="">Leer más</a>
                     </div>
                 </div>
             </div>
@@ -883,6 +884,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
+                            <img src="{{imagen}}" alt="">
                             <p>{{cuerpo}}</p>
                         </div>
 
